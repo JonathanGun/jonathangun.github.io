@@ -2,101 +2,88 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Home | My CV</title>
+		<title>Jonathan Yudi's Personal Website</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:200|Karla|Kaushan+Script|Lobster+Two:400,700|Playfair+Display+SC:400,900i|Playfair+Display:400i" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:200|Noto+Serif+JP|Kaushan+Script|Lobster+Two:400,700|Playfair+Display+SC:400,900i|Playfair+Display:400i|Sniglet" rel="stylesheet"> 
 		<link rel="icon" type="image/png" href="assets/image/logo.png"/>
 		<link rel="stylesheet" href="style.css"/>
+		<link href="assets/aos.css" rel="stylesheet">
 		<script type="text/javascript" src="main.js"></script>
 	</head>
 
+
 	<body>
 		<header>
-			<!--------------- NaAVIGATION BAR -------------------->
-			<nav>
-				<div class="navbox">
-					<ul class="menu">
-						<li> <a href="#top">Home</a> </li>
-						<li> <a href="#about">About Me</a> </li>
-						<li> <a href="#edu">Education & Experience</a> </li>
-						<li> <a href="#skill">Computer Skills</a> </li>
-						<li> <a href="#award">Awards</a> </li>
-						<li> <a href="#interest">Interests</a> </li>
-						<li> <a href="#contact">Contact</a> </li>
-					</ul>
-					<div style='line-height: 63px'>
-						<span style='color:white' id="clicks">0</span>
-						<button class="my_button" onclick="add()">Click Me</button>
-					</div>
-				</div>
-			</nav>
-			<!------------- END OF NAVIGATION BAR -------------->
+			<div class="header-inner">
 
-			<!-------------------- TOP PAGE ------------------->
-			<a name="top">
-			<div id="home">
-				<div class="homectr">
-					<div class="chgbg"><p><</p></div>
-					<div class="myname">
-						<h1>Hello, I'm</h1>
-						<h2>Jonathan Yudi Gunawan</h2>
-						<p style="margin-left: 20px">.. keep learning, it shall not return you void.</p>
+				<div class="header-left">
+					<div class="header-logo">
+						<!-- HOLDER, there was something here -->
 					</div>
 				</div>
 
-				<!---------- SIDEBAR INFO ------------>
-				<div class="sidebar">
-					<img src="assets/image/me4.png" style="transform: scale(0.6)">
-					<h3>Jonathan Yudi Gunawan</h3>
-					<p>jonathanyudigun@gmail.com</p>
-					<p>089522509060</p>
-
-					<div class="buttonbox">
-						<button class="my_button" onclick="openCV()">CV Preview</button>
-						<button class="my_button" onclick="openFB()">Facebook</button>
-						<button class="my_button" onclick="openIG()">Instagram</button>
-					</div>
+				<div class="header-right">
+					<nav class="header-nav">
+						<a class="header-nav-item" href="#top">Home</a>
+						<a class="header-nav-item" href="#about">About</a>
+						<a class="header-nav-item" href="#skill">Skills</a>
+						<a class="header-nav-item" href="#interest">Interests</a>
+						<a class="header-nav-item" href="#contact">Contact</a>
+					</nav>
 				</div>
-				<!-------- END OF SIDEBAR INFO ------->
+
 			</div>
-			<!----------- END OF TOP PAGE ------------>
 		</header>
 
 		<main>
+			<!-------------------- TOP PAGE ------------------->
+			<a name="top">
+			<section class="home">
+				<div class="myname">
+					<h1>Hello, I'm</h1>
+					<h2>Jonathan Yudi Gunawan</h2>
+					<p>.. keep learning, it shall not return you void.</p>
+				</div>
+			</section>
+			<!----------- END OF TOP PAGE ------------>
+
 			<!----------------- ABOUT ME ----------------->
 			<a name="about">
 			<section class="about_me">
-				<div class="wrapper">
+				<div class="block-content">
 					<h3 class="subtitle">About Me</h3>
-					<p>With a passion in programming and artificial intelligence, I have basic skill sets and motivation to dive deeper into programming world. As a fast learner and systematic thinker, I'm ready to join CSLeader community. Browse my site to know me more.</p>
+					<p>With a passion in programming and artificial intelligence, I have basic skill sets and motivation to dive deeper into programming world. As a fast learner and systematic thinker, I'm ready to join Computer Science community. Browse my site to know me more.</p>
 				</div>
 			</section>
 			<!--------------- END OF ABOUT ME ------------->
 
 
 			<!--------- EDUCATION AND EXPERIENCE --------->
-			<a name="edu">
 			<section class="edu">
-				<div class="wrapper">
+				<div class="block-content">
 					<div>
 						<h3 class="subtitle">Education</h3>
 						<p class="subp">2018 - now</p>
 						<p>Bandung Institute of Technology, Indonesia</p>
 						<p class="minip">School of Electrical and Informatics Engineering Technology</p>
+						<p class="minip">GPA: 3.89</p>
 						<br>
 
 						<p class="subp">2015 - 2018</p>
 						<p>Tri Tunggal Christian High School, Indonesia</p>
 						<p class="minip">Science Major</p>
+						<p class="minip">Average Score: 89.6</p>
 					</div>
 
 					<div>
 						<h3 class="subtitle">Experience</h3>
 						<p class="subp">2018 - 2018</p>
 						<p>Else Property, IT Division</p>
+						<p class="minip">Maximizing online marketing using python's Selenium and Requests module.</p>
 						<br><br>
 						<p class="subp">2016 - 2018</p>
 						<p>Jon Collection, Dropshipper</p>
+						<p class="minip">Selling everyday items throughout Indonesia using freeC2C business platform, Tokopedia.</p>
 					</div>
 				</div>
 			</section>
@@ -106,25 +93,24 @@
 			<!---------------------- SKILLSET -------------------->
 			<a name="skill">
 			<section class="skill">
-				<div class="wrapper">
+				<div class="block-content">
 					<h3 class="subtitle">Computer Skills</h3>
-					<div class="bar"><p>C++ Problem Solving</p><div style="width: 270px"></div></div>
-					<div class="bar"><p>Python Game Development</p><div style="width: 280px"></div></div>
-					<div class="bar"><p>Algorithms and Data Structures</p><div style="width: 310px"></div></div>
-					<div class="bar"><p>Microsoft Excel Data Management</p><div style="width: 370px"></div></div>
-					<div class="bar"><p>Java Android App Development</p><div style="width: 200px"></div></div>
-					<div class="bar"><p>Python Problem Solving</p><div style="width: 430px"></div></div>
-					<div class="bar"><p>Python Selenium and Request</p><div style="width: 370px"></div></div>
-					<div class="bar"><p>Microsoft Windows</p><div style="width: 500px"></div></div>
+					<div class="bar"><p>C++ Problem Solving</p><div id="cpp-probsolve" data-aos="fade-left"></div></div>
+					<div class="bar"><p>Python Game Development</p><div id="py-gamedev" data-aos="fade-left"></div></div>
+					<div class="bar"><p>Algorithms and Data Structures</p><div id="algo-ds" data-aos="fade-left"></div></div>
+					<div class="bar"><p>Microsoft Excel Data Management</p><div id="excel-data" data-aos="fade-left"></div></div>
+					<div class="bar"><p>Java Android App Development</p><div id="java-android" data-aos="fade-left"></div></div>
+					<div class="bar"><p>Python Problem Solving</p><div id="py-probsolve" data-aos="fade-left"></div></div>
+					<div class="bar"><p>Python Web Crawler</p><div id="py-webcrawl" data-aos="fade-left"></div></div>
+					<div class="bar"><p>Microsoft Windows</p><div id="win" data-aos="fade-left"></div></div>
 				</div>
 			</section>
 			<!---------------- END OF SKILLSET ---------------->
 
 
 			<!--------------- AWARDS ------------------>
-			<a name="award">
 			<section class="awards">
-				<div class="wrapper">
+				<div class="block-content">
 					<div>
 						<h3 class="subtitle">Awards</h3>
 						<p> <b>2018</b> | <i>International Collegiate Programming Contest</i> (ICPC) Asia Singapore Regional</p>
@@ -138,7 +124,7 @@
 			<!--------------- INTERESTS ------------------>
 			<a name="interest">
 			<section class="interests">
-				<div class="wrapper">
+				<div class="block-content">
 					<div>
 						<h3 class="subtitle">Interests</h3>
 						<p>Problem Solving</p>
@@ -159,7 +145,7 @@
 			<!----------- CONTACT --------------->
 			<a name="contact">
 			<section class="contact">
-				<div class="wrapper">
+				<div class="block-content">
 					<h3 class="subtitle">Contact Me</h3>
 					<p>jonathanyudigun@gmail.com</p>
 					<p>089522509060</p>
@@ -169,16 +155,22 @@
 						<button class="my_button" onclick="openFB()">Facebook</button>
 						<button class="my_button" onclick="openIG()">Instagram</button>
 					</div>
-
-					<a class="gotopbtn" href="#top"> <i class="fas fa-arrow-up"></i> </a>
 				</div>
 			</section>
 
-			<section class="holder">
-				<p></p>
+			<section class="footer">
+				© 2019 Jonathan Yudi Gunawan. All rights reserved.
 			</section>
 			<!-------- END OF CONTACT ---------->
 		</footer>
 
+		<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+		<script src="assets/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html
