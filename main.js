@@ -1,5 +1,3 @@
-var clicked = 0;
-
 function add(){
 	clicked += 1;
 	document.getElementById("clicks").innerHTML = clicked;
