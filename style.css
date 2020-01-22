@@ -26,7 +26,10 @@ p{
 	font-family: 'Encode Sans Condensed';
 	font-size: 18px;
 	padding: 5px 0;
+}
 
+td{
+	font-family: 'Encode Sans Condensed';
 }
 
 .minip{
