@@ -1,6 +1,6 @@
 # Personal-Profile-Website
 > contains my personal profile (education, recent projects, etc).
 
-Click [this](https://profile-web.herokuapp.com/index.html) link to see website preview.
+Click [this](https://jonathangun.github.io) link to see website preview.
 
-made using pure HTML, css, js. `index.php` is only for deploying purpose.
+made using pure HTML, css (, little to no js). `index.php` is only for deploying purpose.
